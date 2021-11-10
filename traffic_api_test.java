@@ -79,14 +79,7 @@ public class traffic_api_test {
     		   
     		   new_name = (String)obj.get("unitName");
     		   new_inout = Integer.parseInt((String)obj.get("inoutType"));
-    		  // traffic = Integer.parseInt((String)obj.get("trafficAmout"));
-    		   
-    		 //  System.out.println("unitName: " + name);
-			 //  System.out.println("inoutType: " + inout);
-			 //  System.out.println();
-    		  // System.out.println("unitName: "+ new_name);
-    		  // System.out.println("inoutType: "+ new_inout);
-    		  // System.out.println("traffic: "+ traffic);
+ 
     		   
     		   if((name.equals(new_name)) && (inout == new_inout))
     		   {
